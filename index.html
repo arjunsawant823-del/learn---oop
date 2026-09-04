@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Learn OOP | C++ OOPs</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="brand">
+            Learn <span>OOP</span>
+        </div>
+
+        <p>C++ Object-Oriented Programming</p>
+
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+
+            <div class="small-title">
+                C++ LEARNING PLATFORM
+            </div>
+
+            <h1>
+                Learn C++ OOPs
+                <span>Simply.</span>
+            </h1>
+
+            <p>
+                Understand Object-Oriented Programming
+                with simple explanations, examples and C++ code.
+            </p>
+
+        </section>
+
+
+        <section class="search-section">
+
+            <div class="search-box">
+
+                <span class="search-icon">⌕</span>
+
+                <input
+                    id="searchInput"
+                    type="text"
+                    placeholder="Search for an OOP concept..."
+                    autocomplete="off"
+                >
+
+                <button id="clearButton" type="button">
+                    ×
+                </button>
+
+            </div>
+
+            <div id="suggestions" class="suggestions"></div>
+
+        </section>
+
+
+        <section class="popular">
+
+            <div class="section-header">
+
+                <div>
+                    <span>EXPLORE</span>
+                    <h2>Popular Topics</h2>
+                </div>
+
+                <p>Start learning</p>
+
+            </div>
+
+
+            <div class="topic-grid">
+
+                <button
+                    class="topic-card purple-card"
+                    onclick="openLessonByTitle('Class and Object')"
+                >
+                    <div class="topic-icon">C</div>
+
+                    <div class="topic-info">
+                        <h3>Class & Object</h3>
+                        <p>Build the foundation</p>
+                    </div>
+
+                    <span class="card-arrow">→</span>
+                </button>
+
+
+                <button
+                    class="topic-card orange-card"
+                    onclick="openLessonByTitle('Inheritance')"
+                >
+                    <div class="topic-icon">I</div>
+
+                    <div class="topic-info">
+                        <h3>Inheritance</h3>
+                        <p>Reuse and extend classes</p>
+                    </div>
+
+                    <span class="card-arrow">→</span>
+                </button>
+
+
+                <button
+                    class="topic-card pink-card"
+                    onclick="openLessonByTitle('Polymorphism')"
+                >
+                    <div class="topic-icon">P</div>
+
+                    <div class="topic-info">
+                        <h3>Polymorphism</h3>
+                        <p>Many forms, one interface</p>
+                    </div>
+
+                    <span class="card-arrow">→</span>
+                </button>
+
+
+                <button
+                    class="topic-card green-card"
+                    onclick="openLessonByTitle('Encapsulation')"
+                >
+                    <div class="topic-icon">E</div>
+
+                    <div class="topic-info">
+                        <h3>Encapsulation</h3>
+                        <p>Protect your data</p>
+                    </div>
+
+                    <span class="card-arrow">→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section
+            id="topicResult"
+            class="topic-result"
+        ></section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-title">
+            Learn <span>OOP</span>
+        </div>
+
+        <p>
+            Learn C++ • Understand OOP • Build Better Programs
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
